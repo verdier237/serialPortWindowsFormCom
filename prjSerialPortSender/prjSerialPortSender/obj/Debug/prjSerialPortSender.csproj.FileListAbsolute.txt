@@ -1,0 +1,10 @@
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\bin\Debug\prjSerialPortSender.exe.config
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\bin\Debug\prjSerialPortSender.exe
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\bin\Debug\prjSerialPortSender.pdb
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.csproj.AssemblyReference.cache
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.Form1.resources
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.Properties.Resources.resources
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.csproj.GenerateResource.cache
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.csproj.CoreCompileInputs.cache
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.exe
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortSender\prjSerialPortSender\obj\Debug\prjSerialPortSender.pdb

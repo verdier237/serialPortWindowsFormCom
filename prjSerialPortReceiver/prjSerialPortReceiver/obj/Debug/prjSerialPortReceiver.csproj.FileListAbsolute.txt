@@ -1,0 +1,10 @@
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\bin\Debug\prjSerialPortReceiver.exe.config
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\bin\Debug\prjSerialPortReceiver.exe
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\bin\Debug\prjSerialPortReceiver.pdb
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.Form1.resources
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.Properties.Resources.resources
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.csproj.GenerateResource.cache
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.csproj.CoreCompileInputs.cache
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.exe
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.pdb
+C:\Users\vdong\OneDrive\Documents\TECCART\session 5\POC\Labs\serialPortWindowsFormCom\prjSerialPortReceiver\prjSerialPortReceiver\obj\Debug\prjSerialPortReceiver.csproj.AssemblyReference.cache
