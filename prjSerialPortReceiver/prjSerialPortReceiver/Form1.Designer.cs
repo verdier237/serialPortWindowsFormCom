@@ -36,14 +36,14 @@ namespace prjSerialPortReceiver
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.P0 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.btnIsOpen = new System.Windows.Forms.Button();
             this.lblInfoPort = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbHistory = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,9 +54,10 @@ namespace prjSerialPortReceiver
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(651, 541);
+            this.button10.Location = new System.Drawing.Point(651, 491);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(38, 26);
+            this.button10.Size = new System.Drawing.Size(37, 26);
             this.button10.TabIndex = 22;
             this.button10.Text = "DI0";
             this.button10.UseVisualStyleBackColor = false;
@@ -68,7 +69,8 @@ namespace prjSerialPortReceiver
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(555, 433);
+            this.button8.Location = new System.Drawing.Point(555, 383);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(56, 26);
             this.button8.TabIndex = 21;
@@ -82,9 +84,10 @@ namespace prjSerialPortReceiver
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(545, 211);
+            this.button9.Location = new System.Drawing.Point(545, 160);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(38, 26);
+            this.button9.Size = new System.Drawing.Size(37, 26);
             this.button9.TabIndex = 20;
             this.button9.Text = "DI1";
             this.button9.UseVisualStyleBackColor = false;
@@ -96,7 +99,8 @@ namespace prjSerialPortReceiver
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(319, 394);
+            this.button7.Location = new System.Drawing.Point(319, 343);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(56, 26);
             this.button7.TabIndex = 19;
@@ -110,9 +114,10 @@ namespace prjSerialPortReceiver
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(636, 262);
+            this.button6.Location = new System.Drawing.Point(636, 212);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(38, 26);
+            this.button6.Size = new System.Drawing.Size(37, 26);
             this.button6.TabIndex = 18;
             this.button6.Text = "F0";
             this.button6.UseVisualStyleBackColor = false;
@@ -124,26 +129,28 @@ namespace prjSerialPortReceiver
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(185, 147);
+            this.button5.Location = new System.Drawing.Point(185, 96);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(38, 26);
+            this.button5.Size = new System.Drawing.Size(37, 26);
             this.button5.TabIndex = 17;
             this.button5.Text = "P3";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // P0
             // 
-            this.button4.BackColor = System.Drawing.Color.Silver;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(686, 316);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(38, 26);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "P0";
-            this.button4.UseVisualStyleBackColor = false;
+            this.P0.BackColor = System.Drawing.Color.Silver;
+            this.P0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.P0.FlatAppearance.BorderSize = 0;
+            this.P0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.P0.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P0.Location = new System.Drawing.Point(685, 266);
+            this.P0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.P0.Name = "P0";
+            this.P0.Size = new System.Drawing.Size(37, 26);
+            this.P0.TabIndex = 16;
+            this.P0.Text = "P0";
+            this.P0.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -152,9 +159,10 @@ namespace prjSerialPortReceiver
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(319, 211);
+            this.button3.Location = new System.Drawing.Point(319, 160);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(38, 26);
+            this.button3.Size = new System.Drawing.Size(37, 26);
             this.button3.TabIndex = 15;
             this.button3.Text = "P1";
             this.button3.UseVisualStyleBackColor = false;
@@ -166,9 +174,10 @@ namespace prjSerialPortReceiver
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(496, 161);
+            this.button2.Location = new System.Drawing.Point(496, 111);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(38, 26);
+            this.button2.Size = new System.Drawing.Size(37, 26);
             this.button2.TabIndex = 14;
             this.button2.Text = "F1";
             this.button2.UseVisualStyleBackColor = false;
@@ -180,31 +189,19 @@ namespace prjSerialPortReceiver
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(234, 283);
+            this.button1.Location = new System.Drawing.Point(235, 233);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(38, 26);
+            this.button1.Size = new System.Drawing.Size(37, 26);
             this.button1.TabIndex = 13;
             this.button1.Text = "P2";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Silver;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(447, 262);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(38, 26);
-            this.button11.TabIndex = 23;
-            this.button11.Text = "P4";
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // btnIsOpen
             // 
             this.btnIsOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIsOpen.Location = new System.Drawing.Point(31, 639);
+            this.btnIsOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnIsOpen.Name = "btnIsOpen";
             this.btnIsOpen.Size = new System.Drawing.Size(93, 23);
             this.btnIsOpen.TabIndex = 24;
@@ -213,7 +210,7 @@ namespace prjSerialPortReceiver
             // lblInfoPort
             // 
             this.lblInfoPort.AutoSize = true;
-            this.lblInfoPort.Location = new System.Drawing.Point(130, 642);
+            this.lblInfoPort.Location = new System.Drawing.Point(131, 642);
             this.lblInfoPort.Name = "lblInfoPort";
             this.lblInfoPort.Size = new System.Drawing.Size(0, 17);
             this.lblInfoPort.TabIndex = 25;
@@ -222,34 +219,47 @@ namespace prjSerialPortReceiver
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(12, -26);
+            this.pictureBox1.Location = new System.Drawing.Point(12, -76);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(867, 726);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // lbHistory
+            // 
+            this.lbHistory.FormattingEnabled = true;
+            this.lbHistory.ItemHeight = 16;
+            this.lbHistory.Location = new System.Drawing.Point(16, 491);
+            this.lbHistory.Margin = new System.Windows.Forms.Padding(4);
+            this.lbHistory.Name = "lbHistory";
+            this.lbHistory.Size = new System.Drawing.Size(487, 132);
+            this.lbHistory.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(891, 674);
+            this.Controls.Add(this.lbHistory);
             this.Controls.Add(this.lblInfoPort);
             this.Controls.Add(this.btnIsOpen);
-            this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.P0);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -264,14 +274,14 @@ namespace prjSerialPortReceiver
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button P0;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button btnIsOpen;
         private System.Windows.Forms.Label lblInfoPort;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ListBox lbHistory;
     }
 }
 

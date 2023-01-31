@@ -2,5 +2,13 @@
 <data>
 <e code = '00' status = 'False'/>
 <e code = '01' status = 'False'/>
+<e code = '10' status = 'False'/>
+<e code = '11' status = 'False'/>
+<e code = '12' status = 'False'/>
+<e code = '13' status = 'False'/>
+<e code = '20' status = 'False'/>
+<e code = '21' status = 'False'/>
+<e code = '30' status = 'False'/>
+<e code = '31' status = 'False'/>
 </data>
 

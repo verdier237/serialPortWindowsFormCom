@@ -2,4 +2,6 @@
 <data>
 <c code ='F' byte = '0'/>
 <c code ='P' byte = '1'/>
+<c code ='DM' byte = '2'/>
+<c code ='DI' byte = '3'/>
 </data>

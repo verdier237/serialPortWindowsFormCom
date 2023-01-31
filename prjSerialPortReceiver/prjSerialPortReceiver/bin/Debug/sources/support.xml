@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+
+<e code = "001"  meaning = 'Ouverture de la fenetre 00'/>
+<e code = '000'  meaning = 'Fermeture de la fenetre 00'/>
+<e code = "011"  meaning = 'Ouverture de la fenetre 01'/>
+<e code = '010'  meaning = 'Fermeture de la fenetre 01'/>
+<e code = '101'  meaning = 'Ouverture de la porte 10'/>
+<e code = '100'  meaning = 'Fermeture de la porte 10'/>
+<e code = '111'  meaning = 'Ouverture de la porte 11'/>
+<e code = '110'  meaning = 'Fermeture de la porte 11'/>
+<e code = '121'  meaning = 'Ouverture de la porte 12'/>
+<e code = '120'  meaning = 'Fermeture de la porte 12'/>
+<e code = '131'  meaning = 'Ouverture de la porte 13'/>
+<e code = '130'  meaning = 'Fermeture de la porte 13'/>
+<e code = '201'  meaning = 'detecteur de mouvement 20 actif'/>
+<e code = '200'  meaning = 'detecteur de mouvement 20 inactif'/>
+<e code = '211'  meaning = 'detecteur de mouvement 21 actif'/>
+<e code = '210'  meaning = 'detecteur de mouvement 21 inactif'/>
+<e code = '301'  meaning = 'detecteur a incendi 30 actif'/>
+<e code = '300'  meaning = 'detecteur a incendi 30 inactif'/>
+<e code = '311'  meaning = 'detecteur a incendi 31 actif'/>
+<e code = '310'  meaning = 'detecteur a incendi 31 inactif'/>
+<e code = '999'  meaning = 'derniere ouverture'/>
+<a code = '0000' meaning = 'Port good'/>
+<a code = '0000' meaning = 'Port pas good'/>
+
+
+</data>
